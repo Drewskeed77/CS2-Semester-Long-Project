@@ -1,0 +1,52 @@
+﻿<Window x:Class="TaskManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Task Manager" Height="450" Width="675">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Add Task -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <TextBox x:Name="txtTask" Width="200" Margin="5" ToolTip="Enter task title"/>
+            <ComboBox x:Name="cmbPriority" Width="100" Margin="5" ToolTip="Select priority">
+                <ComboBoxItem Content="Low"/>
+                <ComboBoxItem Content="Medium"/>
+                <ComboBoxItem Content="High"/>
+            </ComboBox>
+            <Button Content="Add Task" Click="AddTask_Click" Margin="5" Width="80"/>
+        </StackPanel>
+
+        <!-- Controls -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Sort by Name" Click="SortByName_Click" Margin="5" Width="100"/>
+            <Button Content="Sort by Priority" Click="SortByPriority_Click" Margin="5" Width="100"/>
+            <TextBox x:Name="txtSearch" Width="150" Margin="5"/>
+            <Button Content="Search" Click="Search_Click" Margin="5" Width="80"/>
+            <Button Content="Save Tasks" Click="SaveTasks_Click" Margin="5" Width="80"/>
+            <Button Content="Load Tasks" Click="LoadTasks_Click" Margin="5" Width="80"/>
+        </StackPanel>
+
+        <!-- Task List -->
+        <ListView x:Name="lstTasks" Grid.Row="2" Margin="5">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Task" DisplayMemberBinding="{Binding Title}" Width="200"/>
+                    <GridViewColumn Header="Priority" DisplayMemberBinding="{Binding Priority}" Width="100"/>
+                    <GridViewColumn Header="Type" DisplayMemberBinding="{Binding TaskType}" Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <!-- Status Bar -->
+        <StatusBar Grid.Row="3">
+            <StatusBarItem>
+                <TextBlock x:Name="txtStatus" ToolTip="Displays application status"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
