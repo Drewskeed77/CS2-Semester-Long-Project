@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>StudyHelper</id>
+    <version>1.0.0</version>
+    <authors>StudyHelper</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="Microsoft.Extensions.Logging" version="9.0.3" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\drews\source\repos\StudyHelper\StudyHelper\bin\Debug\net8.0-windows\StudyHelper.runtimeconfig.json" target="lib\net8.0-windows7.0\StudyHelper.runtimeconfig.json" />
+    <file src="C:\Users\drews\source\repos\StudyHelper\StudyHelper\bin\Debug\net8.0-windows\StudyHelper.dll" target="lib\net8.0-windows7.0\StudyHelper.dll" />
+  </files>
+</package>

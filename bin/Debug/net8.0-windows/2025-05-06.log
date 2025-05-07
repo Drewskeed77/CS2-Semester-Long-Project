@@ -1,0 +1,21 @@
+2025-05-06 14:14:12 [Information] - Application started
+2025-05-06 14:14:17 [Information] - Added task: Hello (Work, Medium)
+2025-05-06 14:14:25 [Information] - Added task: Test (Work, Low)
+2025-05-06 14:14:44 [Information] - Tasks sorted by priority
+2025-05-06 14:14:44 [Information] - Tasks sorted by name
+2025-05-06 14:14:46 [Information] - Tasks sorted by priority
+2025-05-06 14:14:46 [Information] - Tasks sorted by name
+2025-05-06 14:14:54 [Information] - Started Work timer
+2025-05-06 14:14:57 [Information] - Timer paused
+2025-05-06 14:14:58 [Information] - Timer reset
+2025-05-06 14:15:11 [Information] - Flashcards loaded from file
+2025-05-06 14:15:12 [Information] - Selected deck: GardenHerbs
+2025-05-06 14:16:22 [Information] - Found 1 tasks matching 'hello'
+2025-05-06 14:16:27 [Information] - Found 1 tasks matching 'he'
+2025-05-06 14:16:31 [Information] - Search cleared, showing all tasks
+2025-05-06 14:20:14 [Information] - Started Work timer
+2025-05-06 14:20:32 [Information] - Cards shuffled
+2025-05-06 14:20:42 [Information] - Flashcards loaded from file
+2025-05-06 22:21:25 [Information] - Application started
+2025-05-06 22:21:34 [Information] - Flashcards loaded from file
+2025-05-06 22:21:35 [Information] - Selected deck: GardenHerbs

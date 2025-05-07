@@ -1,0 +1,13 @@
+C:\Users\drews\source\repos\StudyHelper\StudyHelper.exe
+C:\Users\drews\source\repos\StudyHelper\StudyHelper.dll
+C:\Users\drews\source\repos\StudyHelper\StudyHelper.deps.json
+C:\Users\drews\source\repos\StudyHelper\StudyHelper.runtimeconfig.json
+C:\Users\drews\source\repos\StudyHelper\StudyHelper.pdb
+C:\Users\drews\source\repos\StudyHelper\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\drews\source\repos\StudyHelper\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\drews\source\repos\StudyHelper\Microsoft.Extensions.Logging.dll
+C:\Users\drews\source\repos\StudyHelper\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\drews\source\repos\StudyHelper\Microsoft.Extensions.Options.dll
+C:\Users\drews\source\repos\StudyHelper\Microsoft.Extensions.Primitives.dll
+C:\Users\drews\source\repos\StudyHelper\Newtonsoft.Json.dll
+C:\Users\drews\source\repos\StudyHelper\System.Diagnostics.DiagnosticSource.dll
